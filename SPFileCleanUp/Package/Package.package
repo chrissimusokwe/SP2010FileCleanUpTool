@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="14caf381-197d-483c-8e5c-93d2ab6cd9b1" solutionId="14caf381-197d-483c-8e5c-93d2ab6cd9b1" resetWebServer="false" name="SPFileCleanUp" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="29874721-dfe3-4d19-ad22-719bb94ef977" />
+    <featureReference itemId="79274312-09f1-4c42-bcf4-7264db3a1df8" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="2eb8887a-b9d9-463c-92ed-d67cb63bcf13" />
+  </projectItems>
+</package>

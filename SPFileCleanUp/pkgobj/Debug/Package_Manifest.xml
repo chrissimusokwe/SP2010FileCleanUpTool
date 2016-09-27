@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="14caf381-197d-483c-8e5c-93d2ab6cd9b1" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="SPFileCleanUp.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\SPFileCleanUp\PropertyBagsSettings.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="SPFileCleanUp_SPFileCleanUp.Site\Feature.xml" />
+    <FeatureManifest Location="SPFileCleanUp_SPFileCleanUp.TimerJob\Feature.xml" />
+  </FeatureManifests>
+</Solution>

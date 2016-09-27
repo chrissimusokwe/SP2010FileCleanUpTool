@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" ActivateOnDefault="FALSE" Description="Feature for scheduling the clean up timer job." Id="c48f0365-88f0-414a-b888-51ffd3397127" ReceiverAssembly="SPFileCleanUp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=41e7e8d806d0a869" ReceiverClass="SPFileCleanUp.Features.SPFileCleanUp.TimerJob.SPFileCleanUpEventReceiver" Scope="WebApplication" Title="SPFileCleanUp.TimerJob"></Feature>

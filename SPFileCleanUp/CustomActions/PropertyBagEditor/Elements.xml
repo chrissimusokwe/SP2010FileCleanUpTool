@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="Custom.Propertybags"
+            GroupId="SiteCollectionAdmin"
+            Location="Microsoft.SharePoint.SiteSettings"
+            RequireSiteAdministrator="FALSE"
+            Sequence="1003"
+            Title="Property Bag Custom Settings">
+    <UrlAction
+    Url="~site/_layouts/SPFileCleanUp/PropertyBagsSettings.aspx" />
+  </CustomAction>
+</Elements>

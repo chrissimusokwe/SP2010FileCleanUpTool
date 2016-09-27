@@ -1,0 +1,5 @@
+C:\014 SourceControl\SPFileCleanUp\SPFileCleanUp\bin\Debug\SPFileCleanUp.dll
+C:\014 SourceControl\SPFileCleanUp\SPFileCleanUp\bin\Debug\SPFileCleanUp.pdb
+C:\014 SourceControl\SPFileCleanUp\SPFileCleanUp\obj\Debug\ResolveAssemblyReference.cache
+C:\014 SourceControl\SPFileCleanUp\SPFileCleanUp\obj\Debug\SPFileCleanUp.dll
+C:\014 SourceControl\SPFileCleanUp\SPFileCleanUp\obj\Debug\SPFileCleanUp.pdb

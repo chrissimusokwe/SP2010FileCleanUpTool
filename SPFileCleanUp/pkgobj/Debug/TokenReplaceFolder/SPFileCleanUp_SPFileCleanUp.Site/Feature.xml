@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" ActivateOnDefault="FALSE" Description="Feature for deploying site collection level artifacts" Id="ddac800e-0b90-4baa-9ecc-4275c447a8a9" Scope="Site" Title="SPFileCleanUp.Site">
+  <ElementManifests>
+    <ElementManifest Location="PropertyBagEditor\Elements.xml" />
+  </ElementManifests>
+</Feature>
