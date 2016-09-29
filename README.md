@@ -1,12 +1,12 @@
-# SharePoint 2010 File / Version Clean Up Tool
+# SharePoint 2010 File / Version History Clean Up Tool
 
 A tool for cleaning up version history that has span out of control and
 resulted in large size document libraries (At the time, SharePoint 2010
-had no shredded storage, therefore, each version reatined the full
-document size). The tool is packaged as a WSP and the clean up happends
-as a TimerJob activated as a farm feature while the parameters like how
+had no shredded storage, therefore, each version retained the full
+document size). The tool is packaged as a WSP and the clean up happens
+as a TimerJob, activated as a farm feature while the parameters like how
 many versions to retain or whether a site collection should be skipped
-for cleaned is activated as site collection feature.
+for clean up is activated as a site collection feature.
 
 # Deployment Guide
 
