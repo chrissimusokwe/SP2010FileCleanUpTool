@@ -1,4 +1,15 @@
-## Deployment Guide - SharePoint 2010 File / Version History Clean Up Tool
+# SharePoint 2010 File / Version History Clean Up Tool
+
+- [Overview](#overview)
+- [Assumptions and Prerequisites](#AssumptionsAndPrerequisites)
+- [Deployed Artefacts](#DeployedArtefacts)
+- [Uploading and deploying the WSP file](#UploadingAndDeployingTheWSPFile)
+- [Site Collection feature activation](#SiteCollectionFeaturActivation)
+- [Web Application feature Activation](#WebApplicationFeatureActivation)
+- [Event Logging](#EventLogging)
+
+
+## Overview
 
 A tool for cleaning up version history that has span out of control and
 resulted in large size document libraries (At the time, SharePoint 2010
@@ -8,8 +19,8 @@ as a TimerJob, activated as a farm feature while the parameters like how
 many versions to retain or whether a site collection should be skipped
 for clean up is activated as a site collection feature.
 
-
-**Assumptions and Prerequisites**
+<a name="AssumptionsAndPrerequisites"></a>
+## Assumptions and Prerequisites
 
 The following assumptions and prerequisites have been made
 
@@ -41,8 +52,8 @@ The following assumptions and prerequisites have been made
   •	and all hidden document libraries
 
 
-
-**Deployed Artefacts**
+<a name="DeployedArtefacts"></a>
+## Deployed Artefacts
 
 The following artefacts are packaged in the solution
 
@@ -54,6 +65,11 @@ The following artefacts are packaged in the solution
 
 
 
+
+## Deployment Guide
+
+
+<a name="UploadingAndDeployingTheWSPFile"></a>
 **Uploading and deploying the WSP file**
 
 The following steps are to be taken in order to add the WSP solution file to the Solution store and deploy to the relevant site collections.
@@ -79,6 +95,8 @@ The following steps are to be taken in order to add the WSP solution file to the
 
 The following Steps are to be taken, to activate the features at the site collection level that requires file clean up, and at its parent web application level.
 
+
+<a name="SiteCollectionFeaturActivation"></a>
 **Site Collection feature activation
 
 1.	Open the site collection that you require to set clean up.
@@ -118,7 +136,7 @@ The following Steps are to be taken, to activate the features at the site collec
 17.	The above steps of activating and configuring at Site Collection would have to be repeated for every site collection that requires clean up.
 
 
-
+<a name="WebApplicationFeatureActivation"></a>
 **Web Application feature Activation**
 
 1.	Open Central Administration site
@@ -144,7 +162,7 @@ The following Steps are to be taken, to activate the features at the site collec
 11.	The above steps for Web Application feature activation will have to be repeated for every Web Application that requires file clean up.
 
 
-
+<a name="EventLogging"></a>
 ## Event Logging
 
 The SPFileCleanUp tool writes to the windows event logs the following activities:
