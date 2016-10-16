@@ -74,7 +74,8 @@ The following artefacts are packaged in the solution
 
 The following steps are to be taken in order to add the WSP solution file to the Solution store and deploy to the relevant site collections.
 
-1.	On the command line, assuming that the WSP has been copied to the root of c drive, run the command as seen in the screen dump below  ![uploading wsp 1](https://cloud.githubusercontent.com/assets/12210489/19414448/19abb12c-93aa-11e6-9d6a-70a2cc33897e.png) 
+1.	On the command line, assuming that the WSP has been copied to the root of c drive, run the command as seen in the screen dump below.  
+![uploading wsp 1](https://cloud.githubusercontent.com/assets/12210489/19414448/19abb12c-93aa-11e6-9d6a-70a2cc33897e.png) 
 
 2.	After successfully adding to the Solution Store, the solution should be visible as seen below.
 ![uploading wsp 2](https://cloud.githubusercontent.com/assets/12210489/19414449/19b3db68-93aa-11e6-8bf5-b3b6f77a8b7d.png)
@@ -96,7 +97,7 @@ The following Steps are to be taken, to activate the features at the site collec
 
 
 <a name="SiteCollectionFeaturActivation"></a>
-**Site Collection Feature Activation
+**Site Collection Feature Activation**
 
 1.	Open the site collection that you require to set clean up.
 
@@ -108,7 +109,8 @@ The following Steps are to be taken, to activate the features at the site collec
 
 4.	Click “Activate”, and once successfully activated it will show as seen below ![act sc 4](https://cloud.githubusercontent.com/assets/12210489/19414598/6e2980fe-93ae-11e6-9d0b-561cc1823455.png)
 
-5.	Click Site Actions > Site Settings, under Site Collection Administration, you will now have an option at the bottom called “Property Bag Custom Settings” ![act sc 5](https://cloud.githubusercontent.com/assets/12210489/19414599/6e2ce5fa-93ae-11e6-83ad-34c10ee49910.png)
+5.	Click Site Actions > Site Settings, under Site Collection Administration, you will now have an option at the bottom called “Property Bag Custom Settings” 
+![act sc 5](https://cloud.githubusercontent.com/assets/12210489/19414599/6e2ce5fa-93ae-11e6-83ad-34c10ee49910.png)
 
 6.	Click “Property Bag Custom Settings” and a custom page will open up, showing site collection properties, as seen below ![act sc 6](https://cloud.githubusercontent.com/assets/12210489/19414600/6e2ec76c-93ae-11e6-8552-a7adf9cf0914.png)
 
