@@ -75,23 +75,25 @@ The following steps are to be taken in order to add the WSP solution file to the
 6.	The uploading and deployment of the WSP is now done.
 
 
-
-**Activation of features**
+## Activation of features
 
 The following Steps are to be taken, to activate the features at the site collection level that requires file clean up, and at its parent web application level.
-Site Collection feature activation
+
+**Site Collection feature activation
 
 1.	Open the site collection that you require to set clean up.
 
-2.	Click Site Actions > Site Settings, under Site Collection Administration, click Site Collection Features.
+2.	Click Site Actions > Site Settings, under Site Collection Administration, click Site Collection Features. 
+![act sc 2](https://cloud.githubusercontent.com/assets/12210489/19414596/6e20132a-93ae-11e6-89a2-4eaa48981f67.png)
 
-3.	Scroll to locate the feature “SPFileCleanUp.Site” as seen below
+3.	Scroll to locate the feature “SPFileCleanUp.Site” as seen below ![act sc 3](https://cloud.githubusercontent.com/assets/12210489/19414597/6e28978e-93ae-11e6-9683-a6fb7a35b3b5.png)
 
-4.	Click “Activate”, and once successfully activated it will show as seen below
 
-5.	Click Site Actions > Site Settings, under Site Collection Administration, you will now have an option at the bottom called “Property Bag Custom Settings”
+4.	Click “Activate”, and once successfully activated it will show as seen below ![act sc 4](https://cloud.githubusercontent.com/assets/12210489/19414598/6e2980fe-93ae-11e6-9d0b-561cc1823455.png)
 
-6.	Click “Property Bag Custom Settings” and a custom page will open up, showing site collection properties, as seen below.
+5.	Click Site Actions > Site Settings, under Site Collection Administration, you will now have an option at the bottom called “Property Bag Custom Settings” ![act sc 5](https://cloud.githubusercontent.com/assets/12210489/19414599/6e2ce5fa-93ae-11e6-83ad-34c10ee49910.png)
+
+6.	Click “Property Bag Custom Settings” and a custom page will open up, showing site collection properties, as seen below ![act sc 6](https://cloud.githubusercontent.com/assets/12210489/19414600/6e2ec76c-93ae-11e6-8552-a7adf9cf0914.png)
 
 7.	DO NOT delete nor modify any of the already existing property keys.
 
@@ -99,17 +101,17 @@ Site Collection feature activation
 
 9.	The first property key to be inserted will be a key that indicates if the site collection is marked for clean up or not.
 
-10.	 Using the text field Key, type in lowercase “spfilecleanup”, and the Value one as a digit “1”, as seen below, and click “Insert”
+10.	 Using the text field Key, type in lowercase “spfilecleanup”, and the Value one as a digit “1”, as seen below, and click “Insert” ![act sc 10](https://cloud.githubusercontent.com/assets/12210489/19414601/6e2ef994-93ae-11e6-98cf-46c0a5d1298c.png)
 
 11.	A value of “0” would indicate that the site collection should be skipped for file clean up.
 
-12.	Once the insert is successful, the property key should now be visible as seen below in the list of existing property keys.
+12.	Once the insert is successful, the property key should now be visible as seen below in the list of existing property keys ![act sc 12](https://cloud.githubusercontent.com/assets/12210489/19414602/6e48c2a2-93ae-11e6-9431-150c698e2e7f.png)
 
 13.	The second property key to be inserted will be a key that indicates the total count of file previous versions that should be returned in a file’s SharePoint version history.
 
-14.	Using the text field Key, type in lowercase “keepversions”, and the Value as a digit “3”, to keep three previous versions, as seen below, and click “Insert”.  
+14.	Using the text field Key, type in lowercase “keepversions”, and the Value as a digit “3”, to keep three previous versions, as seen below, and click “Insert” ![act sc 14](https://cloud.githubusercontent.com/assets/12210489/19414603/6e4f615c-93ae-11e6-8efb-713c9062a6c0.png)  
 
-15.	Once the insert is successful, the property key should now be visible as seen below in the list of existing property keys.
+15.	Once the insert is successful, the property key should now be visible as seen below in the list of existing property keys ![act sc 15](https://cloud.githubusercontent.com/assets/12210489/19414604/6e52d1f2-93ae-11e6-80f2-998cd62a5c6d.png) 
 
 16.	The above values of the property keys “spfilecleanup”  and “keepversions” can be edited at any later stage, depending on the site collection requirements, by the site collection administrator.
 
@@ -143,7 +145,7 @@ Site Collection feature activation
 
 
 
-## Event Logging ##
+## Event Logging
 
 The SPFileCleanUp tool writes to the windows event logs the following activities:
 
