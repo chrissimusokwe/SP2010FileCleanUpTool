@@ -125,21 +125,21 @@ The following Steps are to be taken, to activate the features at the site collec
 
 2.	Under Application Management section, click “Manage Web Applications”
 
-3.	Highlight the Web Application that you wish to schedule file clean up on, as seen below.
+3.	Highlight the Web Application that you wish to schedule file clean up on, as seen below ![act web 3](https://cloud.githubusercontent.com/assets/12210489/19414605/6e55ce84-93ae-11e6-93b5-f2845bcc3bc8.png)
 
 4.	On the ribbon, under Manage section, click “Manage features”
 
-5.	Scroll to locate the feature “SPFileCleanUp.TimerJob” as seen below.
+5.	Scroll to locate the feature “SPFileCleanUp.TimerJob” as seen below ![act web 5](https://cloud.githubusercontent.com/assets/12210489/19414607/6e5c8094-93ae-11e6-9a24-9b7f9e3b55fd.png)
 
-6.	Click “Activate” to activate the web application feature, and once successfully activated, it should show as seen below.
+6.	Click “Activate” to activate the web application feature, and once successfully activated, it should show as seen below ![act web 6](https://cloud.githubusercontent.com/assets/12210489/19414606/6e5a8c30-93ae-11e6-8f31-8718a0689d76.png)
 
-7.	While on Central Administration, navigate to “Monitoring” page.  
+7.	While on Central Administration, navigate to “Monitoring” page ![act web 7](https://cloud.githubusercontent.com/assets/12210489/19414608/6e6ed2a8-93ae-11e6-9559-e9edd37da08e.png)  
 
-8.	Under Timer Jobs sections, click “Review job definitions”, and scroll to locate the job definition called “Clean Up Schedule Timer Job”. 
+8.	Under Timer Jobs sections, click “Review job definitions”, and scroll to locate the job definition called “Clean Up Schedule Timer Job” ![act web 8](https://cloud.githubusercontent.com/assets/12210489/19414609/6e7548fe-93ae-11e6-9b66-666343331cc7.png) 
 
-9.	Click the job definition “Clean Up Schedule Timer Job” to edit it and the page shown below will come up with default settings.  
+9.	Click the job definition “Clean Up Schedule Timer Job” to edit it and the page shown below will come up with default settings ![act web 9](https://cloud.githubusercontent.com/assets/12210489/19414610/6e7b24fe-93ae-11e6-928c-38cde8325e2f.png)  
 
-10.	Change the scheduled time to run the job according to your requirement, in our case, we schedule it to run daily, starting at 6PM but no later than 7PM, as seen below  
+10.	Change the scheduled time to run the job according to your requirement, in our case, we schedule it to run daily, starting at 6PM but no later than 7PM, as seen below ![act web 10](https://cloud.githubusercontent.com/assets/12210489/19414611/6e7f2b44-93ae-11e6-86cd-3489c6d1b972.png)  
 
 11.	The above steps for Web Application feature activation will have to be repeated for every Web Application that requires file clean up.
 
@@ -155,5 +155,6 @@ The SPFileCleanUp tool writes to the windows event logs the following activities
 
 3.	The time the file was cleaned up
 
-4.	Any errors it may come across during the clean-up process.
+4.	Any errors it may come across during the clean-up process 
+![ev log 4](https://cloud.githubusercontent.com/assets/12210489/19414612/6e832be0-93ae-11e6-8cda-70591f634605.png)
  
