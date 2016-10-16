@@ -190,7 +190,7 @@ The SPFileCleanUp tool writes to the windows event logs the following activities
 4.	Any errors it may come across during the clean-up process.  
 ![ev log 4](https://cloud.githubusercontent.com/assets/12210489/19414612/6e832be0-93ae-11e6-8cda-70591f634605.png)
 
-*SharingIsCaring. Till then...
+Sharing is caring. Over and out for now...
 
 [Back to Top](#Top)
  
