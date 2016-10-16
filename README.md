@@ -1,4 +1,4 @@
-# Deployment Guide - SharePoint 2010 File / Version History Clean Up Tool
+﻿## Deployment Guide - SharePoint 2010 File / Version History Clean Up Tool ##
 
 A tool for cleaning up version history that has span out of control and
 resulted in large size document libraries (At the time, SharePoint 2010
@@ -54,7 +54,7 @@ The following artefacts are packaged in the solution
 
 The following steps are to be taken in order to add the WSP solution file to the Solution store and deploy to the relevant site collections.
 
-1.	On the command line, assuming that the WSP has been copied to the root of c drive, run the command as seen in the screen dump below.
+1.	On the command line, assuming that the WSP has been copied to the root of c drive, run the command as seen in the screen dump below. 
 ![uploading wsp 1](https://cloud.githubusercontent.com/assets/12210489/19414448/19abb12c-93aa-11e6-9d6a-70a2cc33897e.png)
 
 2.	After successfully adding to the Solution Store, the solution should be visible as seen below.
@@ -72,6 +72,7 @@ The following steps are to be taken in order to add the WSP solution file to the
 
 6.	The uploading and deployment of the WSP is now done.
  
+
 **Activation of features**
 
 The following Steps are to be taken, to activate the features at the site collection level that requires file clean up, and at its parent web application level.
