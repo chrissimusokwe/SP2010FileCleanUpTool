@@ -1,4 +1,4 @@
-# SharePoint 2010 File / Version History Clean Up Tool
+# Deployment Guide - SharePoint 2010 File / Version History Clean Up Tool
 
 A tool for cleaning up version history that has span out of control and
 resulted in large size document libraries (At the time, SharePoint 2010
@@ -8,9 +8,8 @@ as a TimerJob, activated as a farm feature while the parameters like how
 many versions to retain or whether a site collection should be skipped
 for clean up is activated as a site collection feature.
 
-# Deployment Guide
+**Assumptions and Prerequisites**
 
-# Assumptions and Prerequisites
 The following assumptions and prerequisites have been made
 
 
@@ -40,7 +39,8 @@ The following assumptions and prerequisites have been made
 
   •	and all hidden document libraries
 
-# Deployed Artefacts
+**Deployed Artefacts**
+
 The following artefacts are packaged in the solution
 
 1.	SPFileCleanUp.TimerJob feature, as a Web Application feature
@@ -50,17 +50,13 @@ The following artefacts are packaged in the solution
 3.	PropertyBagsSettings.aspx, as a custom page accessed at Site Collection Administration and stored in the 14 hive as /_layouts/SPFileCleanUp/PropertyBagsSettings.aspx
 
  
-# Uploading and deploying the WSP file
+**Uploading and deploying the WSP file**
 
 The following steps are to be taken in order to add the WSP solution file to the Solution store and deploy to the relevant site collections.
 
-1.	On the command line, assuming that the WSP has been copied to the root of c drive, run the command as seen in the screen dump below.
+1.	On the command line, assuming that the WSP has been copied to the root of c drive, run the command as seen in the screen dump below.![uploading wsp 1](https://cloud.githubusercontent.com/assets/12210489/19414448/19abb12c-93aa-11e6-9d6a-70a2cc33897e.png)
 
-![uploading wsp 1](https://cloud.githubusercontent.com/assets/12210489/19414448/19abb12c-93aa-11e6-9d6a-70a2cc33897e.png)
-
-2.	After successfully adding to the Solution Store, the solution should be visible as seen below.
-
-![uploading wsp 2](https://cloud.githubusercontent.com/assets/12210489/19414449/19b3db68-93aa-11e6-8bf5-b3b6f77a8b7d.png)
+2.	After successfully adding to the Solution Store, the solution should be visible as seen below.![uploading wsp 2](https://cloud.githubusercontent.com/assets/12210489/19414449/19b3db68-93aa-11e6-8bf5-b3b6f77a8b7d.png)
 
 3.	Now click on the solution name to deploy it, and page as seen below will come up. 
 
@@ -74,7 +70,7 @@ The following steps are to be taken in order to add the WSP solution file to the
 
 6.	The uploading and deployment of the WSP is now done.
  
-# Activation of features
+**Activation of features**
 
 The following Steps are to be taken, to activate the features at the site collection level that requires file clean up, and at its parent web application level.
 Site Collection feature activation
@@ -113,7 +109,7 @@ Site Collection feature activation
 
 17.	The above steps of activating and configuring at Site Collection would have to be repeated for every site collection that requires clean up.
  
-# Web Application feature Activation
+**Web Application feature Activation**
 
 1.	Open Central Administration site
 
