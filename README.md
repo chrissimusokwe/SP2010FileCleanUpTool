@@ -50,6 +50,7 @@ The following artefacts are packaged in the solution
 3.	PropertyBagsSettings.aspx, as a custom page accessed at Site Collection Administration and stored in the 14 hive as /_layouts/SPFileCleanUp/PropertyBagsSettings.aspx
 
  
+
 **Uploading and deploying the WSP file**
 
 The following steps are to be taken in order to add the WSP solution file to the Solution store and deploy to the relevant site collections.
