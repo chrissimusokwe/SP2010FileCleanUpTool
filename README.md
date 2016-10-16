@@ -8,6 +8,8 @@ as a TimerJob, activated as a farm feature while the parameters like how
 many versions to retain or whether a site collection should be skipped
 for clean up is activated as a site collection feature.
 
+
+
 **Assumptions and Prerequisites**
 
 The following assumptions and prerequisites have been made
@@ -39,6 +41,8 @@ The following assumptions and prerequisites have been made
 
   •	and all hidden document libraries
 
+
+
 **Deployed Artefacts**
 
 The following artefacts are packaged in the solution
@@ -49,7 +53,7 @@ The following artefacts are packaged in the solution
 
 3.	PropertyBagsSettings.aspx, as a custom page accessed at Site Collection Administration and stored in the 14 hive as /_layouts/SPFileCleanUp/PropertyBagsSettings.aspx
 
- 
+
 
 **Uploading and deploying the WSP file**
 
@@ -70,7 +74,8 @@ The following steps are to be taken in order to add the WSP solution file to the
 ![uploading wsp 5](https://cloud.githubusercontent.com/assets/12210489/19414451/19be8b76-93aa-11e6-8c35-399f38be0bf1.png)
 
 6.	The uploading and deployment of the WSP is now done.
- 
+
+
 
 **Activation of features**
 
@@ -110,7 +115,9 @@ Site Collection feature activation
 16.	The above values of the property keys “spfilecleanup”  and “keepversions” can be edited at any later stage, depending on the site collection requirements, by the site collection administrator.
 
 17.	The above steps of activating and configuring at Site Collection would have to be repeated for every site collection that requires clean up.
- 
+
+
+
 **Web Application feature Activation**
 
 1.	Open Central Administration site
@@ -134,6 +141,7 @@ Site Collection feature activation
 10.	Change the scheduled time to run the job according to your requirement, in our case, we schedule it to run daily, starting at 6PM but no later than 7PM, as seen below  
 
 11.	The above steps for Web Application feature activation will have to be repeated for every Web Application that requires file clean up.
+
 
 
 ## Event Logging ##
