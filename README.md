@@ -56,6 +56,8 @@ The following steps are to be taken in order to add the WSP solution file to the
 
 1.	On the command line, assuming that the WSP has been copied to the root of c drive, run the command as seen in the screen dump below.
 
+![uploading wsp 1](https://cloud.githubusercontent.com/assets/12210489/19414448/19abb12c-93aa-11e6-9d6a-70a2cc33897e.png)
+
 2.	After successfully adding to the Solution Store, the solution should be visible as seen below.
 
 3.	Now click on the solution name to deploy it, and page as seen below will come up. 
