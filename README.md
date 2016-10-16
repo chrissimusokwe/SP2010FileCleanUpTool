@@ -66,7 +66,6 @@ The following artefacts are packaged in the solution
 
 
 
-
 ## Deployment Guide
 
 
@@ -110,7 +109,7 @@ The following Steps are to be taken, to activate the features at the site collec
 
 4.	Click “Activate”, and once successfully activated it will show as seen below ![act sc 4](https://cloud.githubusercontent.com/assets/12210489/19414598/6e2980fe-93ae-11e6-9d0b-561cc1823455.png)
 
-5.	Click Site Actions > Site Settings, under Site Collection Administration, you will now have an option at the bottom called “Property Bag Custom Settings”
+5.	Click Site Actions > Site Settings, under Site Collection Administration, you will now have an option at the bottom called “Property Bag Custom Settings" 
 ![act sc 5](https://cloud.githubusercontent.com/assets/12210489/19414599/6e2ce5fa-93ae-11e6-83ad-34c10ee49910.png)
 
 6.	Click “Property Bag Custom Settings” and a custom page will open up, showing site collection properties, as seen below ![act sc 6](https://cloud.githubusercontent.com/assets/12210489/19414600/6e2ec76c-93ae-11e6-8552-a7adf9cf0914.png)
