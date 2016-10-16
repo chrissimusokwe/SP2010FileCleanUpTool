@@ -11,7 +11,7 @@
 
 ## Overview
 
-A tool for cleaning up version history that has span out of control and
+This is a tool for cleaning up version histories that have span out of control and
 resulted in large size document libraries (At the time, SharePoint 2010
 had no shredded storage, therefore, each version retained the full
 document size). The tool is packaged as a WSP and the clean up happens
