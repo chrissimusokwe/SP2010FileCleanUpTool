@@ -135,7 +135,8 @@ Site Collection feature activation
 
 11.	The above steps for Web Application feature activation will have to be repeated for every Web Application that requires file clean up.
 
-# Event Logging
+
+## Event Logging ##
 
 The SPFileCleanUp tool writes to the windows event logs the following activities:
 
