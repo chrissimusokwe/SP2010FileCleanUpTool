@@ -3,9 +3,9 @@
 - [Overview](#overview)
 - [Assumptions and Prerequisites](#AssumptionsAndPrerequisites)
 - [Deployed Artefacts](#DeployedArtefacts)
-- [Uploading and deploying the WSP file](#UploadingAndDeployingTheWSPFile)
-- [Site Collection feature activation](#SiteCollectionFeaturActivation)
-- [Web Application feature Activation](#WebApplicationFeatureActivation)
+- [Uploading and Deploying the WSP File](#UploadingAndDeployingTheWSPFile)
+- [Site Collection Feature Activation](#SiteCollectionFeaturActivation)
+- [Web Application Feature Activation](#WebApplicationFeatureActivation)
 - [Event Logging](#EventLogging)
 
 
@@ -70,7 +70,7 @@ The following artefacts are packaged in the solution
 
 
 <a name="UploadingAndDeployingTheWSPFile"></a>
-**Uploading and deploying the WSP file**
+**Uploading and Deploying the WSP File**
 
 The following steps are to be taken in order to add the WSP solution file to the Solution store and deploy to the relevant site collections.
 
@@ -91,13 +91,13 @@ The following steps are to be taken in order to add the WSP solution file to the
 6.	The uploading and deployment of the WSP is now done.
 
 
-## Activation of features
+## Activation of Features
 
 The following Steps are to be taken, to activate the features at the site collection level that requires file clean up, and at its parent web application level.
 
 
 <a name="SiteCollectionFeaturActivation"></a>
-**Site Collection feature activation
+**Site Collection Feature Activation
 
 1.	Open the site collection that you require to set clean up.
 
@@ -137,7 +137,7 @@ The following Steps are to be taken, to activate the features at the site collec
 
 
 <a name="WebApplicationFeatureActivation"></a>
-**Web Application feature Activation**
+**Web Application Feature Activation**
 
 1.	Open Central Administration site
 
