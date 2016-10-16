@@ -60,14 +60,12 @@ The following steps are to be taken in order to add the WSP solution file to the
 2.	After successfully adding to the Solution Store, the solution should be visible as seen below.
 ![uploading wsp 2](https://cloud.githubusercontent.com/assets/12210489/19414449/19b3db68-93aa-11e6-8bf5-b3b6f77a8b7d.png)
 
-3.	Now click on the solution name to deploy it, and page as seen below will come up. 
-
+3.	Now click on the solution name to deploy it, and page as seen below will come up.
 ![uploading wsp 3](https://cloud.githubusercontent.com/assets/12210489/19414450/19ba0b00-93aa-11e6-8bd6-a4bfbcebe9e2.png)
 
 4.	Note that the solution deploys globally, please click “OK” to deploy.
 
 5.	Once deployed successfully, it should show as seen below.
-
 ![uploading wsp 5](https://cloud.githubusercontent.com/assets/12210489/19414451/19be8b76-93aa-11e6-8c35-399f38be0bf1.png)
 
 6.	The uploading and deployment of the WSP is now done.
